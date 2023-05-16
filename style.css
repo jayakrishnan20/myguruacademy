@@ -1,6 +1,3 @@
-@import url('../../../css');
-
-@import url('../../../css-1');
 @charset "utf-8";
 /** 
 * 
@@ -222,7 +219,7 @@ ul {
   background-position: center;
 }
 .bg2 {
-  background: url(assets/images/bg/bg2.jpg);
+  background: url(assets/images/bg2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -3991,7 +3988,7 @@ body .modal-backdrop {
 ---------------------------------------*/
 .rs-banner.style1 {
   padding: 125px 0 425px;
-  background: url(assets/images/banner/home1.jpg);
+  background: url(assets/images/home1.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -11938,7 +11935,7 @@ body .modal-backdrop {
     24. Newsletter Section CSS
 ---------------------------------------*/
 .rs-newsletter.style1 .newsletter-wrap {
-  background: url(assets/images/bg/newsletter-bg.jpg);
+  background: url(assets/images/newsletter-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 3px;
@@ -14095,7 +14092,7 @@ body .modal-backdrop {
 ------------------------------------*/
 .rs-footer {
   background-color: #273c66;
-  background-image: url(assets/images/bg/footer-bg.png);
+  background-image: url(assets/images/footer-bg.png);
   background-size: cover;
 }
 .rs-footer .footer-top {
