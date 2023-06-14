@@ -14826,7 +14826,7 @@ body .modal-backdrop {
   cursor: pointer;
   display: none;
   position: fixed;
-  right: 20px;
+  left: 20px;
   z-index: 999;
   border-radius: 50px 50px 4px 4px;
 }
