@@ -176,8 +176,8 @@
             <!-- Banner Section End -->
 
             <div class="rs-services style1">
-                <div class="row no-gutter">
-                    <div class="col-lg-3 col-md-6">
+                <div class="row no-gutter" id="divFlex">
+                    <div class="col p-0">
                         <div class="service-item overly1">
                             <img src="assets/images/services/1.jpg" alt="">
                             <div class="content-part">
@@ -186,7 +186,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col p-0">
                         <div class="service-item overly2">
                             <img src="assets/images/services/1.jpg" alt="">
                             <div class="content-part">
@@ -195,7 +195,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col p-0">
                         <div class="service-item overly3">
                             <img src="assets/images/services/1.jpg" alt="">
                             <div class="content-part">
@@ -204,12 +204,21 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col p-0">
                         <div class="service-item overly4">
                             <img src="assets/images/services/1.jpg" alt="">
                             <div class="content-part">
                                 <img src="assets/images/services/icon/1.png" alt="">
                                 <h4 class="title"><a href="features.html">Features</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col p-0">
+                        <div class="service-item overly1">
+                            <img src="assets/images/services/1.jpg" alt="">
+                            <div class="content-part">
+                                <img src="assets/images/services/icons/1.png" alt="">
+                                <h4 class="title"><a href="gallery.html">Gallery</a></h4>
                             </div>
                         </div>
                     </div>
@@ -385,6 +394,21 @@
             s1.setAttribute('crossorigin','*');
             s0.parentNode.insertBefore(s1,s0);
             })();
+
+            function resize() {
+                if ($(window).width() < 700) {
+                  $('#divFlex').addClass('flex-column');
+                }else{
+                    $('#divFlex').removeClass('flex-column');
+                }
+              }
+              
+              //watch window resize
+              $(window).on('resize', function() {
+                resize()
+              });
+              resize();
+
         </script>
         <!--End of Tawk.to Script-->
             
